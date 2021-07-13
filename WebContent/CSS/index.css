@@ -1,0 +1,153 @@
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+  color: white;
+}
+
+/* Full height image header */
+.bigimage {
+  background-position: center;
+  background-size: cover;
+  background-image: url("../Images/insurancebg.jpg");
+  min-height: 100%;
+}
+.about{
+  background-position: center;
+  background-size: cover;
+  background-image: url("../Images/about.jpg");
+  min-height: 90%;
+ 
+}
+#product-list{
+  background-position: center;
+  background-size: cover;
+  background-image: url("../Images/product.jpg");
+  min-height: 90%;
+}
+.product-content{
+    text-align: center;
+}
+.product{
+   float: left;
+    margin: 10px;
+     width: 300px;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 50px;
+    border: solid black;
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+.product:hover{
+  background-color: antiquewhite;
+}
+.center{
+  color: red;
+  font-size: 50px;
+}
+
+
+.links{
+    text-decoration: none;
+    margin-left: 200px;
+    color: white;
+}
+.insurance{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    text-shadow: 2px 2px pink;
+}
+.nav-item{
+    background-color: black;
+    opacity: 0.7;
+    
+}
+.home{
+  margin-left: 500px;
+  margin-top: 200px;
+  font-size: 50px;
+}
+#learn{
+  background-color: black;
+  color: white;
+  font-size: 50px;
+  border-radius:40% ;
+  width: 500px;
+   height:100px ;
+   margin-left: 300px;
+}
+.about-content{
+  margin-left: 10px;
+  
+}
+
+/*reach us*/
+.conHead{
+    margin-left: 500px;
+}
+#contcontainer{
+  background-position: center;
+  background-size: cover;
+  background-image: url("../Images/reachus.jpg");
+  min-height: 90%;
+    
+    
+}
+.continsidecontainer{
+    display: flex; 
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.contact{
+   width: 400px;
+   height: 400px;
+    box-shadow: 3px 3px cadetblue;
+    padding: 20px;
+    background-color:rgba(220, 255, 255, 0.561);
+    
+    
+}
+.gpinput{
+  padding: 20px;
+  text-align: center;
+}
+#contbtn{
+  margin-left:130px;
+  color: red;
+  background-color: black;
+}
+.tableinfo{
+    box-shadow: 3px 3px cadetblue;
+    padding: 20px;
+    background-color:rgba(220, 255, 255, 0.561);
+    width: 380px;
+    height: 380px;
+    text-align: center;
+}
+.trelement:hover{
+   background-color: rgba(255, 0, 0, 0.349);
+}
+.information{
+width: 400px;
+height: 300px;
+}
+@media (max-width:783px) {
+    .continsidecontainer{
+        display: block;
+        margin-top: 20px;
+    }
+    .information{
+      margin-top: 20px;
+    }
+    .classForm{
+        width: 400px;
+        height: 400px; 
+    }
+    .conHead{
+        margin-left: 100px;
+    }
+}
